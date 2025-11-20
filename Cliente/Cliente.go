@@ -182,18 +182,18 @@ func particionarArchivoEnBloques(file *os.File) ([][]byte, int) {
 	cantBlocks := 0
 	buffer := make([]byte, 1024) // 1KB
 	for {
-		n, err := file.Read(buffer)
+		blockSize, err := file.Read(buffer)
 		if err != nil && err != io.EOF {
 			fmt.Println("Error leyendo:", err)
 			break
 		}
-		if n == 0 {
+		if blockSize == 0 {
 			break
 		}
 
-		block := make([]byte, n)
-		copy(block, buffer[:n])
-		fmt.Printf("\n Bloque %d leído, tamaño %d bytes contenido:\n %s \n ========================================", cantBlocks, n, string(block))
+		block := make([]byte, blockSize)
+		copy(block, buffer[:blockSize])
+		fmt.Printf("\n Bloque %d leído, tamaño %d \n ========================================", cantBlocks, blockSize)
 		buffers = append(buffers, block)
 		cantBlocks++
 	}
@@ -220,6 +220,7 @@ func responseFromNamenode() string {
 }
 
 func storeDataNodes(dataNodes []string, buffers [][]byte, cantBlocks int) {
+
 	for i := 0; i < cantBlocks; i++ {
 		dnAddress := strings.TrimSpace(dataNodes[i])
 		fmt.Printf("Enviando bloque %d al Datanode %s\n", i, dnAddress)
@@ -231,16 +232,23 @@ func storeDataNodes(dataNodes []string, buffers [][]byte, cantBlocks int) {
 		}
 		defer dataNode.Close()
 
-		toSave := "store " + os.Args[2] + "_block_" + fmt.Sprint(i) + " " + string(buffers[i]) + "\n"
+		//Primero envio argumentos
+		argumentos := "store " + os.Args[2] + "_block_" + fmt.Sprint(i) + " " + strconv.Itoa(len(buffers[i])) + "\n"
+		dataNode.Write([]byte(argumentos))
 
+		//Luego envio el bloque de datos
+		toSave := string(buffers[i]) + "\n"
 		dataNode.Write([]byte(toSave))
 
 		fmt.Printf("Bloque %d enviado al Datanode \n", i)
+		dataNode.Close()
 	}
 }
 
 func readDataNodes(dataNodes []string) []byte {
 	buffer := make([]byte, 1024) // 1KB
+	//limpiar buffer antes de usar
+	buffer = []byte{}
 	for i, dn := range dataNodes {
 		dnAddress := strings.TrimSpace(dn)
 		fmt.Printf("Conectando al Datanode %s para leer bloques\n", dnAddress)

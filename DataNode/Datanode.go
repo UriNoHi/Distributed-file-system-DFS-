@@ -6,6 +6,7 @@ import (
 	"io"
 	"net"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -23,65 +24,78 @@ func main() {
 	fmt.Println("Server is listening on port ", cmd)
 
 	for {
-		// Accept a connection
 		coneccion, err := socket.Accept()
 		if err != nil {
 			fmt.Println("Error accepting connection:", err)
 			continue
 		}
-
-		//**************************************
-		// CONECCION ESTABLECIDA
-		//**************************************
 		fmt.Println("Client connected:", coneccion.RemoteAddr())
 
-		// Handle the connection in a new goroutine
 		go handleConnection(coneccion)
 	}
 }
 
 func handleConnection(coneccion net.Conn) {
 	defer coneccion.Close()
-
 	// Crear lector para leer del cliente
 	reader := bufio.NewReader(coneccion)
 	for {
 		// Leer mensaje del cliente (hasta \n)
-		comando, err := reader.ReadString('\n')
+		argumentos, err := reader.ReadString('\n')
+		//n, err := io.ReadFull(reader, make([]byte, 1024))
 		if err != nil {
 			fmt.Println("Cliente desconectado:", coneccion.RemoteAddr())
 			return
 		}
+		if len(argumentos) == 0 {
+			continue
+		}
 
-		fmt.Printf("Comando recibido de Cliente: %s", comando)
+		fmt.Printf("Comando recibido de Cliente: %s", argumentos)
 
-		parts := strings.SplitN(strings.TrimSpace(comando), " ", 3)
+		parts := strings.Split(strings.TrimSpace(string(argumentos)), " ")
 
-		switch parts[0] {
+		if len(parts) < 2 {
+			fmt.Println("Argumentos inválido recibido:", argumentos)
+			return
+		}
+
+		cmd := parts[0]
+		fileName := parts[1]
+
+		switch cmd {
 		case "store":
-			store(parts[1], parts[2])
+			blockSizeSTR := parts[2]
+			blockSize, _ := strconv.Atoi(blockSizeSTR)
+			//fmt.Println("Partes del comando: ", parts)
+
+			buffer := make([]byte, blockSize)
+			_, err = io.ReadFull(reader, buffer)
+			if err != nil {
+				fmt.Println("Error al leer bloque de datos:", err)
+				return
+			}
+			//fmt.Printf("Bloque de datos recibido, %s\n", buffer)
+			store(fileName, buffer)
 		case "read":
 			read(parts[1], coneccion)
 		default:
 			fmt.Println("DEFAULT")
 		}
-
-		// Responder al cliente
-		coneccion.Write([]byte("Mensaje recibido: " + comando))
 	}
 }
 
-func store(filename string, data string) {
+func store(filename string, data []byte) {
 	//creo un archivo y lo guardo en la carpeta blocks/
-	fmt.Println("STORE en Datanode:", filename)
+	fmt.Println("	==> STORE en Datanode:", filename)
 
 	file, err := os.Create("blocks/" + filename)
 	if err != nil {
 		fmt.Println("Error creando archivo:", err)
 		return
 	}
-	file.WriteString(data)
-	fmt.Println("Archivo guardado:", filename)
+	file.WriteString(string(data))
+	fmt.Println("	====> Archivo guardado:", filename)
 	defer file.Close()
 }
 
@@ -97,6 +111,7 @@ func read(filename string, coneccion net.Conn) {
 
 	buffer := make([]byte, 1024) // 1KB
 	//leo el contenido
+
 	n, err := file.Read(buffer)
 	if err != nil && err != io.EOF {
 		fmt.Println("Error leyendo:", err)
