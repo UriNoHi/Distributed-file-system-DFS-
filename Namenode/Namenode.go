@@ -35,7 +35,6 @@ var metadata = map[string][]DataInfo{
 }
 
 func main() {
-	// Listen on TCP port 8080
 	socket, err := net.Listen("tcp", "localhost:8080")
 	if err != nil {
 		fmt.Println("Error starting TCP server:", err)
@@ -105,7 +104,11 @@ func handleConnection(coneccion net.Conn) {
 		case "get":
 			getNameNode(parts[1], coneccion)
 
+		case "info":
+			getNameNode(parts[1], coneccion)
+
 		case "ls":
+			listOfFiles(coneccion)
 
 		default:
 			fmt.Println("DEFAULT")
@@ -160,7 +163,19 @@ func getNameNode(fileName string, coneccion net.Conn) {
 		_, err := coneccion.Write([]byte(strings.Join(listaDeDatanodes, ",") + "\n"))
 		if err != nil {
 			fmt.Println("Error al enviar:", err)
-			return
+
 		}
+	}
+}
+
+func listOfFiles(coneccion net.Conn) {
+	fmt.Println("Procesando LS en Namenode")
+	listOfFiles := []string{}
+	for fileName := range metadata {
+		listOfFiles = append(listOfFiles, fileName)
+	}
+	_, err := coneccion.Write([]byte(strings.Join(listOfFiles, ",") + "\n"))
+	if err != nil {
+		fmt.Println("Error al enviar:", err)
 	}
 }

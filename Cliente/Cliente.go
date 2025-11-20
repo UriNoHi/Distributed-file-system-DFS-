@@ -29,59 +29,71 @@ func main() {
 	// Conn se mantiene abierta durante la ejecución; si necesitas usarla en otras
 	// funciones exporta una variable global o pásala como argumento.
 	fmt.Printf("Conectado al Namenode %s\n", namenode)
+	reader = bufio.NewReader(os.Stdin)
+	for {
+		fmt.Print("DFS> ")
 
-	cmd := os.Args[1]
-	switch cmd {
-	case "put":
-		if len(os.Args) < 3 {
-			usage("put")
-		}
-		put()
+		input, _ := reader.ReadString('\n')
+		input = strings.TrimSpace(input)
+		splitCommand := strings.Split(input, " ")
 
-	case "get":
-		// usage: get <remote-path> <local-path>
-		if len(os.Args) < 3 {
-			usage("get")
-		}
-		get()
-
-	case "info":
-		// usage: info <path>
-		if len(os.Args) < 3 {
-			usage("info")
+		if len(splitCommand) == 0 {
+			input = ""
 		}
 
-	case "ls":
-		// usage: ls [path]
-		if len(os.Args) >= 3 {
-			usage("ls")
-		}
+		switch splitCommand[0] {
+		case "put":
+			if len(splitCommand) < 2 {
+				usage("put")
+			}
+			put(splitCommand[1])
 
-	default:
-		fmt.Printf("unknown command: %s\n", cmd)
-		usage("")
+		case "get":
+			// usage: get <remote-path> <local-path>
+			if len(splitCommand) < 2 {
+				usage("get")
+			}
+			get(splitCommand[1])
+
+		case "info":
+			// usage: info <path>
+			if len(splitCommand) < 2 {
+				usage("info")
+			}
+			info(splitCommand[1])
+
+		case "ls":
+			// usage: ls [path]
+			if len(splitCommand) >= 1 {
+				usage("ls")
+			}
+			ls()
+
+		case "exit":
+			fmt.Println("Cerrando cliente...")
+			return
+
+		default:
+			fmt.Printf("unknown command: %s\n", input)
+			usage("")
+		}
 	}
 }
 
 func usage(cmd string) {
-	fmt.Println("Usage:")
-	fmt.Println("  put <local-path> 	Sube un archivo al sistema distribuido")
-	fmt.Println("  get <remote-path>	Descarga un archivo del sistema distribuido")
-	fmt.Println("  info <path>       	Muestra información sobre un archivo")
-	fmt.Println("  ls [path]            Lista el contenido de un directorio")
 
 	switch cmd {
 	case "put":
-		fmt.Println("usage: put <local-file> <remote-path>")
+		fmt.Println("uso del comando: put <local-file>")
 
 	case "get":
-		fmt.Println("usage: get <remote-path> <local-path>")
+		fmt.Println("uso del comando: get <local-file> ")
 
 	case "info":
-		fmt.Println("usage: info <path>")
+		fmt.Println("uso del comando: info <local-file>")
 
 	case "ls":
-		fmt.Println("usage:")
+		fmt.Println("uso del comando: ls , sin argumentos")
 
 	default:
 		fmt.Println("Usage:")
@@ -90,15 +102,14 @@ func usage(cmd string) {
 		fmt.Println("  info <path>                      Show info about a file")
 		fmt.Println("  ls [path]                        List directory")
 	}
-	os.Exit(1)
 
 }
 
-func put() {
-	fmt.Println("Ejecutando comando put con argumentos:", os.Args[1], os.Args[2])
+func put(fileName string) {
+	fmt.Println("Ejecutando comando put con argumentos:", fileName)
 
 	//Abro el archivo local
-	file := abrirArchivoLocal(os.Args[2])
+	file := abrirArchivoLocal(fileName)
 	if file == nil {
 		return
 	}
@@ -112,8 +123,8 @@ func put() {
 
 	//Consulta al Namenode dónde guardar cada bloque
 	toSend :=
-		os.Args[1] + " " + //comando <put>
-			os.Args[2] + " " + //archivo que quiero guardar
+		"put " + //comando <put>
+			fileName + " " + //archivo que quiero guardar
 			fmt.Sprint(cantBlocks) + //número de bloques del archivo
 			"\n"
 	sendToNamenode(toSend)
@@ -123,54 +134,54 @@ func put() {
 
 	//Enviar los bloques a los Datanodes asignados
 	dataNodes := strings.Split(response, ",")
-	storeDataNodes(dataNodes, buffers, cantBlocks)
+	storeDataNodes(dataNodes, buffers, fileName, cantBlocks)
 
 }
 
-func get() {
-	fmt.Println("Ejecutando comando get con argumentos:", os.Args[1])
+func get(fileName string) {
+	fmt.Println("Ejecutando comando get con argumentos:", fileName)
 
-	toSend := os.Args[1] + " " + os.Args[2] + "\n"
+	toSend := "get " + fileName + "\n"
 	sendToNamenode(toSend)
-
-	// _, err = conn.Write([]byte(toSend))
-	// if err != nil {
-	// 	fmt.Println("Error al enviar:", err)
-	// 	return
-	// }
-
 	response := responseFromNamenode()
-	// reader := bufio.NewReader(conn)
-	// response, err := reader.ReadString('\n')
-	// if err != nil {
-	// 	fmt.Println("Error al recibir respuesta:", err)
-	// 	return
-	// }
+
 	listOfDataNodes := strings.Split(response, ",")
 	fmt.Println("Lista de DataNodos: ", listOfDataNodes)
 
-	buffer := readDataNodes(listOfDataNodes)
-	// for _, dn := range listOfDataNodes {
-	// 	fmt.Printf("Datanode: %s\n", dn)
-	// }
-	// crear archivo local con el contenido recibido
-	createLocalFile(buffer)
+	buffer := readDataNodes(listOfDataNodes, fileName)
+
+	createLocalFile(buffer, fileName)
 }
 
-func info(path string) {
-	// TODO: implement info logic
-	fmt.Printf("INFO: path=%s\n", path)
+func info(file string) {
+	fmt.Println("Ejecutando comando info con argumentos:", file)
+	sendToNamenode("info " + file + "\n")
+	response := responseFromNamenode()
+
+	fmt.Println(" ===== Información del archivo: " + file + " ===== ")
+	//quiero separarlos por coma y mostrarlos en líneas separadas
+	splitInfo := strings.Split(response, ",")
+	for i, info := range splitInfo {
+		toPrint := "Bloque " + strconv.Itoa(i) + " en datanode: " + info
+		fmt.Println(toPrint)
+	}
 }
 
-func ls(path string) {
-	// TODO: implement listing logic
-	fmt.Printf("LS: path=%s\n", path)
+func ls() {
+	fmt.Println("Ejecutando comando ls")
+	sendToNamenode("ls\n")
+	response := responseFromNamenode()
+	fmt.Println(" ===== Contenido del metadata ===== ")
+	splitFiles := strings.Split(response, ",")
+	for _, file := range splitFiles {
+		fmt.Println("-	", file)
+	}
 }
 
 func abrirArchivoLocal(nameFile string) *os.File {
 	file, err := os.Open(nameFile)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "no se pudo abrir el archivo %s: %v\n", os.Args[2], err)
+		fmt.Fprintf(os.Stderr, "no se pudo abrir el archivo %s: %v\n", nameFile, err)
 		os.Exit(1)
 	}
 	//defer file.Close()
@@ -201,6 +212,7 @@ func particionarArchivoEnBloques(file *os.File) ([][]byte, int) {
 }
 
 func sendToNamenode(message string) {
+	fmt.Println("\nComando que mando a Namenode: ", message)
 	_, err = conn.Write([]byte(message))
 	if err != nil {
 		fmt.Println("Error al enviar:", err)
@@ -219,7 +231,7 @@ func responseFromNamenode() string {
 	return response
 }
 
-func storeDataNodes(dataNodes []string, buffers [][]byte, cantBlocks int) {
+func storeDataNodes(dataNodes []string, buffers [][]byte, fileName string, cantBlocks int) {
 
 	for i := 0; i < cantBlocks; i++ {
 		dnAddress := strings.TrimSpace(dataNodes[i])
@@ -233,7 +245,7 @@ func storeDataNodes(dataNodes []string, buffers [][]byte, cantBlocks int) {
 		defer dataNode.Close()
 
 		//Primero envio argumentos
-		argumentos := "store " + os.Args[2] + "_block_" + fmt.Sprint(i) + " " + strconv.Itoa(len(buffers[i])) + "\n"
+		argumentos := "store " + fileName + "_block_" + fmt.Sprint(i) + " " + strconv.Itoa(len(buffers[i])) + "\n"
 		dataNode.Write([]byte(argumentos))
 
 		//Luego envio el bloque de datos
@@ -245,7 +257,7 @@ func storeDataNodes(dataNodes []string, buffers [][]byte, cantBlocks int) {
 	}
 }
 
-func readDataNodes(dataNodes []string) []byte {
+func readDataNodes(dataNodes []string, fileName string) []byte {
 	buffer := make([]byte, 1024) // 1KB
 	//limpiar buffer antes de usar
 	buffer = []byte{}
@@ -259,14 +271,13 @@ func readDataNodes(dataNodes []string) []byte {
 		}
 		defer dataNode.Close()
 
-		toRead := "read " + os.Args[2] + "_block_" + strconv.Itoa(i) + "\n"
+		toRead := "read " + fileName + "_block_" + strconv.Itoa(i) + "\n"
 
 		fmt.Println("\nComando que mando a Datanode: ", toRead)
-		dataNode.Write([]byte(toRead)) //<--REVISAR ESTO
+		dataNode.Write([]byte(toRead))
 
 		reader = bufio.NewReader(dataNode)
-		//response, err := reader.ReadString('\n')
-		// 1 — leer tamaño del bloque
+
 		sizeStr, err := reader.ReadString('\n')
 		if err != nil {
 			fmt.Println("Error al leer tamaño del bloque:", err)
@@ -292,8 +303,8 @@ func readDataNodes(dataNodes []string) []byte {
 	return buffer
 }
 
-func createLocalFile(buffer []byte) {
-	localFile, err := os.Create(os.Args[2])
+func createLocalFile(buffer []byte, fileName string) {
+	localFile, err := os.Create(fileName)
 	if err != nil {
 		fmt.Println("Error creando archivo local:", err)
 		return
