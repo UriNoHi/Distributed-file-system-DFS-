@@ -1,0 +1,32 @@
+{
+  "ejemplo.txt": [
+    {
+      "block": 0,
+      "node": "localhost:8001"
+    },
+    {
+      "block": 1,
+      "node": "localhost:8002"
+    }
+  ],
+  "file1.txt": [
+    {
+      "block": 0,
+      "node": "localhost:8001"
+    },
+    {
+      "block": 1,
+      "node": "localhost:8002"
+    }
+  ],
+  "file2.txt": [
+    {
+      "block": 0,
+      "node": "localhost:8002"
+    },
+    {
+      "block": 1,
+      "node": "localhost:8003"
+    }
+  ]
+}

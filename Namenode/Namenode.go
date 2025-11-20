@@ -153,7 +153,7 @@ func getNameNode(fileName string, coneccion net.Conn) {
 	listaDeDatanodes := []string{}
 	if info, exists := metadata[fileName]; exists {
 		for _, dataInfo := range info {
-			block := "Bloque " + strconv.Itoa(dataInfo.Block) + " = " + dataInfo.DataNode
+			block := dataInfo.DataNode
 			listaDeDatanodes = append(listaDeDatanodes, block)
 		}
 		fmt.Printf("Lista de DataNodes para el archivo %s: %v\n", fileName, listaDeDatanodes)
