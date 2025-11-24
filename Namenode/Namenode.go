@@ -84,6 +84,8 @@ func handleConnection(coneccion net.Conn) {
 
 		case "ls":
 			listOfFiles(coneccion)
+		case "rm":
+			getNameNode(parts[1], coneccion)
 
 		default:
 			log.Println("DEFAULT")

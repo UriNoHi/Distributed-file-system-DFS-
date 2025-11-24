@@ -83,6 +83,9 @@ func handleConnection(coneccion net.Conn) {
 			store(fileName, buffer)
 		case "read":
 			read(parts[1], coneccion)
+
+		case "rm":
+			remove(fileName)
 		default:
 			log.Println("DEFAULT")
 		}
@@ -140,4 +143,14 @@ func setupLog() {
 
 	log.SetOutput(mw)
 	log.SetFlags(log.LstdFlags | log.Lshortfile) // fecha, hora y línea de código
+}
+
+func remove(fileName string) {
+	log.Println("[INFO] RM en Datanode:", fileName)
+	err := os.Remove("blocks/" + fileName)
+	if err != nil {
+		log.Println("[ERROR] Error eliminando archivo:", err)
+		return
+	}
+	log.Println("[INFO] Archivo eliminado:", fileName)
 }

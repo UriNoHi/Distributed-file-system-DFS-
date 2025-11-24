@@ -23,7 +23,7 @@ func main() {
 
 	conn, err = net.Dial("tcp", namenode)
 	if err != nil {
-		fmt.Println(os.Stderr, "[ERROR] No se pudo conectar al Namenode %s: %v\n", namenode, err)
+		log.Println("[ERROR] No se pudo conectar al Namenode: \n", err)
 		os.Exit(1)
 	}
 	defer conn.Close()
@@ -33,7 +33,7 @@ func main() {
 	log.Printf("Conectado al Namenode %s\n", namenode)
 	readerCommand = bufio.NewReader(os.Stdin)
 	for {
-		log.Print("DFS> ")
+		fmt.Print("DFS> ")
 
 		input, _ := readerCommand.ReadString('\n')
 		input = strings.TrimSpace(input)
@@ -71,6 +71,12 @@ func main() {
 				usage("ls")
 			}
 			ls()
+
+		case "rm":
+			if len(splitCommand) < 2 {
+				usage("rm")
+			}
+			rm(splitCommand[1])
 
 		case "exit":
 			log.Println("Cerrando cliente...")
@@ -149,7 +155,7 @@ func get(fileName string) {
 	response := responseFromNamenode()
 
 	listOfDataNodes := strings.Split(response, ",")
-	//log.Println("Lista de DataNodos: ", listOfDataNodes)
+	log.Println("Lista de DataNodos: ", listOfDataNodes)
 
 	buffer := readDataNodes(listOfDataNodes, fileName)
 
@@ -179,6 +185,15 @@ func ls() {
 	for _, file := range splitFiles {
 		log.Println("-	", file)
 	}
+}
+
+func rm(fileName string) {
+	log.Println("Ejecutando comando rm")
+	sendToNamenode("rm " + fileName + "\n")
+	response := responseFromNamenode()
+	listOfDataNodes := strings.Split(response, ",")
+	removeDataNodes(listOfDataNodes, fileName)
+	log.Println("Archivo eliminado del DFS: ", fileName)
 }
 
 func abrirArchivoLocal(nameFile string) *os.File {
@@ -395,4 +410,22 @@ func setupLog() {
 
 	log.SetOutput(mw)
 	log.SetFlags(log.LstdFlags | log.Lshortfile) // fecha, hora y línea de código
+}
+
+func removeDataNodes(dataNodes []string, fileName string) {
+	for i, dn := range dataNodes {
+		dnAddress := strings.TrimSpace(dn)
+		log.Printf("Conectando al Datanode %s para eliminar los bloques\n", dnAddress)
+		dataNode, err := net.Dial("tcp", dnAddress)
+		if err != nil {
+			log.Println("[ERROR] Error al conectar con el Datanode:", err)
+			return
+		}
+		defer dataNode.Close()
+
+		toDelete := "rm " + fileName + "_block_" + strconv.Itoa(i) + "\n"
+		log.Println("\nComando que mando a Datanode: ", toDelete)
+		dataNode.Write([]byte(toDelete))
+		dataNode.Close()
+	}
 }
