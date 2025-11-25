@@ -16,7 +16,7 @@ func main() {
 	setupLog()
 	log.Println("Iniciando Datanode en el puerto ", cmd)
 
-	ip_port := "localhost:" + cmd
+	ip_port :=":" + cmd
 
 	socket, err := net.Listen("tcp", ip_port)
 	if err != nil {

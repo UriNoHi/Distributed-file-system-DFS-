@@ -347,3 +347,53 @@
 2025/11/24 23:41:43 Namenode.go:68: [INFO] Comando recibido de Cliente: ls
 2025/11/24 23:41:43 Namenode.go:69: [INFO] Partes del comando:  [ls]
 2025/11/24 23:41:43 Namenode.go:170: [INFO] Procesando LS en Namenode
+2025/11/24 23:44:27 Namenode.go:27: Iniciando Namenode
+2025/11/24 23:44:27 Namenode.go:35: Namenode escuchando el puerto 8080...
+2025/11/24 23:44:27 Namenode.go:219: Archivo 'metadata.json' creado correctamente ✅
+2025/11/24 23:44:27 Namenode.go:224: [INFO] Lista de DataNodes disponibles:
+2025/11/24 23:44:27 Namenode.go:235: [INFO] -  localhost:8001
+2025/11/24 23:44:27 Namenode.go:235: [INFO] -  localhost:8002
+2025/11/24 23:44:27 Namenode.go:235: [INFO] -  localhost:8003
+2025/11/24 23:44:34 Namenode.go:49: Client connected: [::1]:60540
+2025/11/24 23:44:40 Namenode.go:68: [INFO] Comando recibido de Cliente: put ejemplo.txt 10
+2025/11/24 23:44:40 Namenode.go:69: [INFO] Partes del comando:  [put ejemplo.txt 10]
+2025/11/24 23:44:40 Namenode.go:100: Procesando PUT en Namenode para el archivo ejemplo.txt con 10 bloques
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 0 del archivo ejemplo.txt asignado al DataNode localhost:8001
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 1 del archivo ejemplo.txt asignado al DataNode localhost:8002
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 2 del archivo ejemplo.txt asignado al DataNode localhost:8003
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 3 del archivo ejemplo.txt asignado al DataNode localhost:8001
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 4 del archivo ejemplo.txt asignado al DataNode localhost:8002
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 5 del archivo ejemplo.txt asignado al DataNode localhost:8003
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 6 del archivo ejemplo.txt asignado al DataNode localhost:8001
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 7 del archivo ejemplo.txt asignado al DataNode localhost:8002
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 8 del archivo ejemplo.txt asignado al DataNode localhost:8003
+2025/11/24 23:44:40 Namenode.go:118: [INFO] Bloque 9 del archivo ejemplo.txt asignado al DataNode localhost:8001
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 0 del archivo ejemplo.txt asignado al DataNode localhost:8003
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 1 del archivo ejemplo.txt asignado al DataNode localhost:8001
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 2 del archivo ejemplo.txt asignado al DataNode localhost:8002
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 3 del archivo ejemplo.txt asignado al DataNode localhost:8003
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 4 del archivo ejemplo.txt asignado al DataNode localhost:8001
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 5 del archivo ejemplo.txt asignado al DataNode localhost:8002
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 6 del archivo ejemplo.txt asignado al DataNode localhost:8003
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 7 del archivo ejemplo.txt asignado al DataNode localhost:8001
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 8 del archivo ejemplo.txt asignado al DataNode localhost:8002
+2025/11/24 23:44:40 Namenode.go:131: [INFO] Bloque de Recuperacion 9 del archivo ejemplo.txt asignado al DataNode localhost:8003
+2025/11/24 23:44:41 Namenode.go:68: [INFO] Comando recibido de Cliente: ls
+2025/11/24 23:44:41 Namenode.go:69: [INFO] Partes del comando:  [ls]
+2025/11/24 23:44:41 Namenode.go:171: [INFO] Procesando LS en Namenode
+2025/11/24 23:44:48 Namenode.go:68: [INFO] Comando recibido de Cliente: rm ejemplo.txt
+2025/11/24 23:44:48 Namenode.go:69: [INFO] Partes del comando:  [rm ejemplo.txt]
+2025/11/24 23:44:48 Namenode.go:151: [INFO] Procesando GET en Namenode para el archivo ejemplo.txt
+2025/11/24 23:44:48 Namenode.go:161: [INFO] Lista de DataNodes para el archivo ejemplo.txt: [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001]
+2025/11/24 23:44:48 Namenode.go:242: [INFO] Procesando RM en Namenode para el archivo ejemplo.txt
+2025/11/24 23:44:50 Namenode.go:68: [INFO] Comando recibido de Cliente: ls
+2025/11/24 23:44:50 Namenode.go:69: [INFO] Partes del comando:  [ls]
+2025/11/24 23:44:50 Namenode.go:171: [INFO] Procesando LS en Namenode
+2025/11/24 23:45:03 Namenode.go:68: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup
+2025/11/24 23:45:03 Namenode.go:69: [INFO] Partes del comando:  [rm ejemplo.txt_backup]
+2025/11/24 23:45:03 Namenode.go:151: [INFO] Procesando GET en Namenode para el archivo ejemplo.txt_backup
+2025/11/24 23:45:03 Namenode.go:161: [INFO] Lista de DataNodes para el archivo ejemplo.txt_backup: [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8003]
+2025/11/24 23:45:03 Namenode.go:242: [INFO] Procesando RM en Namenode para el archivo ejemplo.txt_backup
+2025/11/24 23:45:05 Namenode.go:68: [INFO] Comando recibido de Cliente: ls
+2025/11/24 23:45:05 Namenode.go:69: [INFO] Partes del comando:  [ls]
+2025/11/24 23:45:05 Namenode.go:171: [INFO] Procesando LS en Namenode

@@ -15,19 +15,19 @@ var conn net.Conn
 var err error
 var reader *bufio.Reader
 var readerCommand *bufio.Reader
-var key = []byte("12345678901234567890123456789012")
 
 func main() {
-
-	//namenode := os.Args[1] //ip:puerto del namenode
-
-	//if len(os.Args) < 2 {
 	namenode := "localhost:8080"
-	//		log.Println("[WARN] No se proporcionó la dirección del Namenode. Usando por defecto: ", namenode)
-	//	}
+	if len(os.Args) < 2 {
+		log.Println("[WARN] No se proporcionó la dirección del Namenode. Usando por defecto: ", namenode)
+	} else{
+		namenode := os.Args[1] //ip:puerto del namenode
+		log.Println("[INFO] Se proporcionó la dirección del Namenode: ", namenode)
+	}
+	namenodeAddr := strings.TrimSpace(os.Args[1])
 	setupLog()
 
-	conn, err = net.Dial("tcp", namenode)
+	conn, err = net.Dial("tcp", namenodeAddr)
 	if err != nil {
 		log.Println("[ERROR] No se pudo conectar al Namenode: \n", err)
 		os.Exit(1)
