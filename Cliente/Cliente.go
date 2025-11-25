@@ -15,10 +15,16 @@ var conn net.Conn
 var err error
 var reader *bufio.Reader
 var readerCommand *bufio.Reader
+var key = []byte("12345678901234567890123456789012")
 
 func main() {
 
+	//namenode := os.Args[1] //ip:puerto del namenode
+
+	//if len(os.Args) < 2 {
 	namenode := "localhost:8080"
+	//		log.Println("[WARN] No se proporcionó la dirección del Namenode. Usando por defecto: ", namenode)
+	//	}
 	setupLog()
 
 	conn, err = net.Dial("tcp", namenode)
@@ -28,9 +34,8 @@ func main() {
 	}
 	defer conn.Close()
 
-	// Conn se mantiene abierta durante la ejecución; si necesitas usarla en otras
-	// funciones exporta una variable global o pásala como argumento.
 	log.Printf("Conectado al Namenode %s\n", namenode)
+
 	readerCommand = bufio.NewReader(os.Stdin)
 	for {
 		fmt.Print("DFS> ")
@@ -143,6 +148,7 @@ func put(fileName string) {
 
 	//Enviar los bloques a los Datanodes asignados
 	dataNodes := strings.Split(response, ",")
+
 	storeDataNodes(dataNodes, buffers, fileName, cantBlocks)
 
 }
@@ -223,6 +229,10 @@ func particionarArchivoEnBloques(file *os.File) ([][]byte, int) {
 		block := make([]byte, blockSize)
 		copy(block, buffer[:blockSize])
 		log.Printf("\n Bloque %d leído, tamaño %d \n ========================================", cantBlocks, blockSize)
+
+		log.Println("[DEBUG] Tamaño esperado:", blockSize)
+		log.Println("[DEBUG] Tamaño recibido real:", len(block))
+
 		buffers = append(buffers, block)
 		cantBlocks++
 	}
@@ -260,17 +270,18 @@ func storeDataNodes(dataNodes []string, buffers [][]byte, fileName string, cantB
 			log.Println("[ERROR] Error al conectar con el Datanode:", err)
 			return
 		}
-		defer dataNode.Close()
+		//defer dataNode.Close()
 
 		//Primero envio argumentos
 		argumentos := "store " + fileName + "_block_" + fmt.Sprint(i) + " " + strconv.Itoa(len(buffers[i])) + "\n"
 		dataNode.Write([]byte(argumentos))
 
 		//Luego envio el bloque de datos
-		toSave := string(buffers[i]) + "\n"
-		dataNode.Write([]byte(toSave))
+		//toSave := string(buffers[i]) //+ "\n"
+		dataNode.Write(buffers[i])
 
 		log.Printf("Bloque %d enviado al Datanode \n", i)
+
 		dataNode.Close()
 	}
 	for i := cantBlocks; i < (cantBlocks * 2); i++ {
@@ -332,11 +343,20 @@ func readDataNodes(dataNodes []string, fileName string) []byte {
 		blockSize, _ := strconv.Atoi(sizeStr)
 
 		block := make([]byte, blockSize)
-		_, err = io.ReadFull(reader, block)
+		var n int
+		n, err = io.ReadFull(reader, block)
 		if err != nil {
 			log.Println("[ERROR] Error al leer bloque:", err)
 			return nil
 		}
+		log.Printf("[DEBUG] Tamaño recibido de  ReadFull: ", n)
+
+		log.Printf("[DEBUG] recibido %d bytes, tamaño declarado %d", len(block), blockSize)
+		if len(block) != blockSize {
+			log.Println("[WARN] mismatch tamaño")
+		}
+
+		log.Printf("[DEBUG] primeros bytes: %x", block[:min(16, len(block))])
 
 		buffer = append(buffer, block...)
 
@@ -344,6 +364,7 @@ func readDataNodes(dataNodes []string, fileName string) []byte {
 
 	}
 	//log.Printf("Archivo completo recibido: %s\n", string(buffer))
+
 	return buffer
 }
 

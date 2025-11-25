@@ -1,0 +1,1005 @@
+2025/11/24 21:57:53 Cliente.go:33: Conectado al Namenode localhost:8080
+2025/11/24 22:07:13 Cliente.go:26: [ERROR] No se pudo conectar al Namenode: 
+ dial tcp [::1]:8080: connectex: No connection could be made because the target machine actively refused it.
+2025/11/24 22:10:52 Cliente.go:34: Conectado al Namenode localhost:8080
+2025/11/24 22:10:52 Cliente.go:38: [ERROR] No se pudo conectar al Namenode: 
+ dial tcp [::1]:8081: connectex: No connection could be made because the target machine actively refused it.
+2025/11/24 22:12:12 Cliente.go:34: Conectado al Namenode localhost:8080
+2025/11/24 22:12:12 Cliente.go:38: [ERROR] No se pudo conectar al Namenode: 
+ dial tcp [::1]:8081: connectex: No connection could be made because the target machine actively refused it.
+2025/11/24 22:12:24 Cliente.go:34: Conectado al Namenode localhost:8080
+2025/11/24 22:12:24 Cliente.go:38: [ERROR] No se pudo conectar al Namenode: 
+ dial tcp [::1]:8081: connectex: No connection could be made because the target machine actively refused it.
+2025/11/24 22:13:15 Cliente.go:34: Conectado al Namenode localhost:8080
+2025/11/24 22:14:03 Cliente.go:54: Comando ingresado: 
+2025/11/24 22:15:26 Cliente.go:34: Conectado al Namenode localhost:8080
+2025/11/24 22:15:26 Cliente.go:42: Conectado al WebSocket [::1]:8081
+2025/11/24 22:23:07 Cliente.go:34: Conectado al Namenode localhost:8080
+2025/11/24 22:45:23 Cliente.go:35: [ERROR] No se pudo conectar al Namenode: 
+ dial tcp: lookup locarlhost: no such host
+2025/11/24 22:46:23 Cliente.go:40: Conectado al Namenode localhost:8080
+2025/11/24 22:46:40 Cliente.go:53: Comando ingresado: put ejemplo.txt
+2025/11/24 22:46:40 Cliente.go:126: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 0 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 1 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 2 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 3 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 4 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 5 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 6 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 7 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:234: 
+ Bloque 8 leído, tamaño 109 
+ ========================================
+2025/11/24 22:46:40 Cliente.go:252: 
+Comando que mando a Namenode:  put ejemplo.txt 9
+
+2025/11/24 22:46:40 Cliente.go:267: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002
+
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 0 al Datanode localhost:8001
+2025/11/24 22:46:40 Cliente.go:292: Bloque 0 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 1 al Datanode localhost:8002
+2025/11/24 22:46:40 Cliente.go:292: Bloque 1 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 2 al Datanode localhost:8003
+2025/11/24 22:46:40 Cliente.go:292: Bloque 2 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 3 al Datanode localhost:8001
+2025/11/24 22:46:40 Cliente.go:292: Bloque 3 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 4 al Datanode localhost:8002
+2025/11/24 22:46:40 Cliente.go:292: Bloque 4 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 5 al Datanode localhost:8003
+2025/11/24 22:46:40 Cliente.go:292: Bloque 5 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 6 al Datanode localhost:8001
+2025/11/24 22:46:40 Cliente.go:292: Bloque 6 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 7 al Datanode localhost:8002
+2025/11/24 22:46:40 Cliente.go:292: Bloque 7 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:275: Enviando bloque 8 al Datanode localhost:8003
+2025/11/24 22:46:40 Cliente.go:292: Bloque 8 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 0 al Datanode localhost:8003
+2025/11/24 22:46:40 Cliente.go:316: Bloque 0 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 1 al Datanode localhost:8001
+2025/11/24 22:46:40 Cliente.go:316: Bloque 1 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 2 al Datanode localhost:8002
+2025/11/24 22:46:40 Cliente.go:316: Bloque 2 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 3 al Datanode localhost:8003
+2025/11/24 22:46:40 Cliente.go:316: Bloque 3 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 4 al Datanode localhost:8001
+2025/11/24 22:46:40 Cliente.go:316: Bloque 4 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 5 al Datanode localhost:8002
+2025/11/24 22:46:40 Cliente.go:316: Bloque 5 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 6 al Datanode localhost:8003
+2025/11/24 22:46:40 Cliente.go:316: Bloque 6 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 7 al Datanode localhost:8001
+2025/11/24 22:46:40 Cliente.go:316: Bloque 7 enviado al Datanode 
+2025/11/24 22:46:40 Cliente.go:299: Enviando bloque de recuperacion 8 al Datanode localhost:8002
+2025/11/24 22:46:40 Cliente.go:316: Bloque 8 enviado al Datanode 
+2025/11/24 22:47:01 Cliente.go:53: Comando ingresado: get ejemplo.txt
+2025/11/24 22:47:01 Cliente.go:160: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 22:47:01 Cliente.go:252: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 22:47:01 Cliente.go:267: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003
+
+2025/11/24 22:47:01 Cliente.go:167: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003
+]
+2025/11/24 22:47:01 Cliente.go:327: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 22:47:01 Cliente.go:339: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 22:47:01 Cliente.go:364: Error desencriptando: cipher: message authentication failed
+2025/11/24 22:55:16 Cliente.go:53: Comando ingresado: clear
+2025/11/24 22:55:16 Cliente.go:94: unknown command: clear
+2025/11/24 22:55:16 Cliente.go:116: Usage:
+2025/11/24 22:55:16 Cliente.go:117:   put <local-path>    Upload a file
+2025/11/24 22:55:16 Cliente.go:118:   get <remote-path>   Download a file
+2025/11/24 22:55:16 Cliente.go:119:   info <path>         Show info about a file
+2025/11/24 22:55:16 Cliente.go:120:   ls                  List files in the metadata
+2025/11/24 22:55:21 Cliente.go:53: Comando ingresado: 
+2025/11/24 22:55:33 Cliente.go:41: Conectado al Namenode localhost:8080
+2025/11/24 22:55:38 Cliente.go:54: Comando ingresado: get ejemplo.txt
+2025/11/24 22:55:38 Cliente.go:161: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 22:55:38 Cliente.go:253: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 22:55:38 Cliente.go:268: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003
+
+2025/11/24 22:55:38 Cliente.go:168: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003
+]
+2025/11/24 22:55:38 Cliente.go:328: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 22:55:39 Cliente.go:340: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 22:55:39 Cliente.go:363: Error desencriptando: cipher: message authentication failed
+2025/11/24 22:57:19 Cliente.go:54: Comando ingresado: 
+2025/11/24 22:57:19 Cliente.go:95: unknown command: 
+2025/11/24 22:57:19 Cliente.go:117: Usage:
+2025/11/24 22:57:24 Cliente.go:41: Conectado al Namenode localhost:8080
+2025/11/24 22:57:36 Cliente.go:54: Comando ingresado: put ejemplo.txt
+2025/11/24 22:57:36 Cliente.go:127: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 22:57:36 Cliente.go:253: 
+Comando que mando a Namenode:  put ejemplo.txt 0
+
+2025/11/24 22:57:36 Cliente.go:268: Respuesta del Namenode: 
+ 
+
+2025/11/24 22:57:50 Cliente.go:54: Comando ingresado: get ejemplo.txt
+2025/11/24 22:57:50 Cliente.go:161: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 22:57:50 Cliente.go:253: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 22:57:50 Cliente.go:268: Respuesta del Namenode: 
+ 
+
+2025/11/24 22:57:50 Cliente.go:168: Lista de DataNodos:  [
+]
+2025/11/24 22:57:50 Cliente.go:328: Conectando al Datanode  para leer el bloque 0
+2025/11/24 22:57:50 Cliente.go:331: [ERROR] Error al conectar con el Datanode: dial tcp: missing address
+2025/11/24 22:57:50 Cliente.go:390: Recuperando bloque desde otro Datanode...
+2025/11/24 22:57:50 Cliente.go:426: No se pudo recuperar el bloque desde ningún Datanode.
+2025/11/24 22:58:27 Cliente.go:54: Comando ingresado: 
+2025/11/24 22:58:35 Cliente.go:41: Conectado al Namenode localhost:8080
+2025/11/24 22:58:52 Cliente.go:54: Comando ingresado: put ejemplo.txt
+2025/11/24 22:58:52 Cliente.go:127: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 0 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 1 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 2 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 3 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 4 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 5 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 6 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 7 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 8 leído, tamaño 1024 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:235: 
+ Bloque 9 leído, tamaño 715 
+ ========================================
+2025/11/24 22:58:52 Cliente.go:253: 
+Comando que mando a Namenode:  put ejemplo.txt 10
+
+2025/11/24 22:58:52 Cliente.go:268: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003
+
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 0 al Datanode localhost:8001
+2025/11/24 22:58:52 Cliente.go:293: Bloque 0 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 1 al Datanode localhost:8002
+2025/11/24 22:58:52 Cliente.go:293: Bloque 1 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 2 al Datanode localhost:8003
+2025/11/24 22:58:52 Cliente.go:293: Bloque 2 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 3 al Datanode localhost:8001
+2025/11/24 22:58:52 Cliente.go:293: Bloque 3 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 4 al Datanode localhost:8002
+2025/11/24 22:58:52 Cliente.go:293: Bloque 4 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 5 al Datanode localhost:8003
+2025/11/24 22:58:52 Cliente.go:293: Bloque 5 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 6 al Datanode localhost:8001
+2025/11/24 22:58:52 Cliente.go:293: Bloque 6 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 7 al Datanode localhost:8002
+2025/11/24 22:58:52 Cliente.go:293: Bloque 7 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 8 al Datanode localhost:8003
+2025/11/24 22:58:52 Cliente.go:293: Bloque 8 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:276: Enviando bloque 9 al Datanode localhost:8001
+2025/11/24 22:58:52 Cliente.go:293: Bloque 9 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 0 al Datanode localhost:8003
+2025/11/24 22:58:52 Cliente.go:317: Bloque 0 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 1 al Datanode localhost:8001
+2025/11/24 22:58:52 Cliente.go:317: Bloque 1 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 2 al Datanode localhost:8002
+2025/11/24 22:58:52 Cliente.go:317: Bloque 2 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 3 al Datanode localhost:8003
+2025/11/24 22:58:52 Cliente.go:317: Bloque 3 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 4 al Datanode localhost:8001
+2025/11/24 22:58:52 Cliente.go:317: Bloque 4 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 5 al Datanode localhost:8002
+2025/11/24 22:58:52 Cliente.go:317: Bloque 5 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 6 al Datanode localhost:8003
+2025/11/24 22:58:52 Cliente.go:317: Bloque 6 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 7 al Datanode localhost:8001
+2025/11/24 22:58:52 Cliente.go:317: Bloque 7 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 8 al Datanode localhost:8002
+2025/11/24 22:58:52 Cliente.go:317: Bloque 8 enviado al Datanode 
+2025/11/24 22:58:52 Cliente.go:300: Enviando bloque de recuperacion 9 al Datanode localhost:8003
+2025/11/24 22:58:52 Cliente.go:317: Bloque 9 enviado al Datanode 
+2025/11/24 22:59:02 Cliente.go:54: Comando ingresado: get ejemplo.txt
+2025/11/24 22:59:02 Cliente.go:161: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 22:59:02 Cliente.go:253: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 22:59:02 Cliente.go:268: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 22:59:02 Cliente.go:168: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 22:59:02 Cliente.go:328: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 22:59:02 Cliente.go:340: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 22:59:02 Cliente.go:363: Error desencriptando: cipher: message authentication failed
+2025/11/24 23:00:20 Cliente.go:54: Comando ingresado: 
+2025/11/24 23:00:20 Cliente.go:95: unknown command: 
+2025/11/24 23:00:43 Cliente.go:41: Conectado al Namenode localhost:8080
+2025/11/24 23:00:47 Cliente.go:54: Comando ingresado: put ejemplo.txt
+2025/11/24 23:00:47 Cliente.go:127: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 0 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 1 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 2 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 3 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 4 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 5 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 6 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 7 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 8 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:235: 
+ Bloque 9 leído, tamaño 715 
+ ========================================
+2025/11/24 23:00:47 Cliente.go:253: 
+Comando que mando a Namenode:  put ejemplo.txt 10
+
+2025/11/24 23:00:47 Cliente.go:268: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003
+
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 0 al Datanode localhost:8001
+2025/11/24 23:00:47 Cliente.go:293: Bloque 0 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 1 al Datanode localhost:8002
+2025/11/24 23:00:47 Cliente.go:293: Bloque 1 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 2 al Datanode localhost:8003
+2025/11/24 23:00:47 Cliente.go:293: Bloque 2 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 3 al Datanode localhost:8001
+2025/11/24 23:00:47 Cliente.go:293: Bloque 3 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 4 al Datanode localhost:8002
+2025/11/24 23:00:47 Cliente.go:293: Bloque 4 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 5 al Datanode localhost:8003
+2025/11/24 23:00:47 Cliente.go:293: Bloque 5 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 6 al Datanode localhost:8001
+2025/11/24 23:00:47 Cliente.go:293: Bloque 6 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 7 al Datanode localhost:8002
+2025/11/24 23:00:47 Cliente.go:293: Bloque 7 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 8 al Datanode localhost:8003
+2025/11/24 23:00:47 Cliente.go:293: Bloque 8 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:276: Enviando bloque 9 al Datanode localhost:8001
+2025/11/24 23:00:47 Cliente.go:293: Bloque 9 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 0 al Datanode localhost:8003
+2025/11/24 23:00:47 Cliente.go:317: Bloque 0 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 1 al Datanode localhost:8001
+2025/11/24 23:00:47 Cliente.go:317: Bloque 1 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 2 al Datanode localhost:8002
+2025/11/24 23:00:47 Cliente.go:317: Bloque 2 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 3 al Datanode localhost:8003
+2025/11/24 23:00:47 Cliente.go:317: Bloque 3 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 4 al Datanode localhost:8001
+2025/11/24 23:00:47 Cliente.go:317: Bloque 4 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 5 al Datanode localhost:8002
+2025/11/24 23:00:47 Cliente.go:317: Bloque 5 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 6 al Datanode localhost:8003
+2025/11/24 23:00:47 Cliente.go:317: Bloque 6 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 7 al Datanode localhost:8001
+2025/11/24 23:00:47 Cliente.go:317: Bloque 7 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 8 al Datanode localhost:8002
+2025/11/24 23:00:47 Cliente.go:317: Bloque 8 enviado al Datanode 
+2025/11/24 23:00:47 Cliente.go:300: Enviando bloque de recuperacion 9 al Datanode localhost:8003
+2025/11/24 23:00:47 Cliente.go:317: Bloque 9 enviado al Datanode 
+2025/11/24 23:00:54 Cliente.go:54: Comando ingresado: get ejemplo.txt
+2025/11/24 23:00:54 Cliente.go:161: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 23:00:54 Cliente.go:253: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 23:00:54 Cliente.go:268: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:00:54 Cliente.go:168: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 23:00:54 Cliente.go:328: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 23:00:54 Cliente.go:340: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 23:00:54 Cliente.go:363: Error desencriptando: cipher: message authentication failed
+2025/11/24 23:06:06 Cliente.go:41: Conectado al Namenode localhost:8080
+2025/11/24 23:06:24 Cliente.go:54: Comando ingresado: put ejemplo.txt
+2025/11/24 23:06:24 Cliente.go:127: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 0 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 1 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 2 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 3 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 4 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 5 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 6 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 7 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 8 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:235: 
+ Bloque 9 leído, tamaño 715 
+ ========================================
+2025/11/24 23:06:24 Cliente.go:253: 
+Comando que mando a Namenode:  put ejemplo.txt 10
+
+2025/11/24 23:06:24 Cliente.go:268: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003
+
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 0 al Datanode localhost:8001
+2025/11/24 23:06:24 Cliente.go:293: Bloque 0 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 1 al Datanode localhost:8002
+2025/11/24 23:06:24 Cliente.go:293: Bloque 1 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 2 al Datanode localhost:8003
+2025/11/24 23:06:24 Cliente.go:293: Bloque 2 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 3 al Datanode localhost:8001
+2025/11/24 23:06:24 Cliente.go:293: Bloque 3 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 4 al Datanode localhost:8002
+2025/11/24 23:06:24 Cliente.go:293: Bloque 4 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 5 al Datanode localhost:8003
+2025/11/24 23:06:24 Cliente.go:293: Bloque 5 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 6 al Datanode localhost:8001
+2025/11/24 23:06:24 Cliente.go:293: Bloque 6 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 7 al Datanode localhost:8002
+2025/11/24 23:06:24 Cliente.go:293: Bloque 7 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 8 al Datanode localhost:8003
+2025/11/24 23:06:24 Cliente.go:293: Bloque 8 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:276: Enviando bloque 9 al Datanode localhost:8001
+2025/11/24 23:06:24 Cliente.go:293: Bloque 9 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 0 al Datanode localhost:8003
+2025/11/24 23:06:24 Cliente.go:317: Bloque 0 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 1 al Datanode localhost:8001
+2025/11/24 23:06:24 Cliente.go:317: Bloque 1 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 2 al Datanode localhost:8002
+2025/11/24 23:06:24 Cliente.go:317: Bloque 2 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 3 al Datanode localhost:8003
+2025/11/24 23:06:24 Cliente.go:317: Bloque 3 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 4 al Datanode localhost:8001
+2025/11/24 23:06:24 Cliente.go:317: Bloque 4 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 5 al Datanode localhost:8002
+2025/11/24 23:06:24 Cliente.go:317: Bloque 5 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 6 al Datanode localhost:8003
+2025/11/24 23:06:24 Cliente.go:317: Bloque 6 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 7 al Datanode localhost:8001
+2025/11/24 23:06:24 Cliente.go:317: Bloque 7 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 8 al Datanode localhost:8002
+2025/11/24 23:06:24 Cliente.go:317: Bloque 8 enviado al Datanode 
+2025/11/24 23:06:24 Cliente.go:300: Enviando bloque de recuperacion 9 al Datanode localhost:8003
+2025/11/24 23:06:24 Cliente.go:317: Bloque 9 enviado al Datanode 
+2025/11/24 23:06:29 Cliente.go:54: Comando ingresado: get ejemplo.txt
+2025/11/24 23:06:29 Cliente.go:161: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 23:06:29 Cliente.go:253: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 23:06:29 Cliente.go:268: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:06:29 Cliente.go:168: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 23:06:29 Cliente.go:328: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 23:06:29 Cliente.go:340: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 23:06:29 Cliente.go:363: Error desencriptando: cipher: message authentication failed
+2025/11/24 23:10:12 Cliente.go:54: Comando ingresado: 
+2025/11/24 23:10:21 Cliente.go:41: Conectado al Namenode localhost:8080
+2025/11/24 23:10:28 Cliente.go:54: Comando ingresado: get ejemplo.txt
+2025/11/24 23:10:28 Cliente.go:161: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 23:10:28 Cliente.go:253: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 23:10:28 Cliente.go:268: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:10:28 Cliente.go:168: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 23:10:28 Cliente.go:329: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 23:10:28 Cliente.go:341: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 23:10:28 Cliente.go:362: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:10:28 Cliente.go:366: [DEBUG] primeros bytes: 6f8237fe9f2b684dab63fb0cc22fb0b6
+2025/11/24 23:10:28 Cliente.go:370: Error desencriptando: cipher: message authentication failed
+2025/11/24 23:21:59 Cliente.go:54: Comando ingresado: 
+2025/11/24 23:21:59 Cliente.go:95: unknown command: 
+2025/11/24 23:22:23 Cliente.go:40: Conectado al Namenode localhost:8080
+2025/11/24 23:22:33 Cliente.go:53: Comando ingresado: put ejemplo.txt
+2025/11/24 23:22:33 Cliente.go:126: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 23:22:33 Cliente.go:254: 
+Comando que mando a Namenode:  put ejemplo.txt 0
+
+2025/11/24 23:22:33 Cliente.go:269: Respuesta del Namenode: 
+ 
+
+2025/11/24 23:22:50 Cliente.go:53: Comando ingresado: put ejemplo.txt
+2025/11/24 23:22:50 Cliente.go:126: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 0 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 1 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 2 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 3 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 4 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 5 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 6 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 7 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 8 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:22:50 Cliente.go:234: 
+ Bloque 9 leído, tamaño 715 
+ ========================================
+2025/11/24 23:22:50 Cliente.go:244: [DEBUG] Tamaño esperado: 715
+2025/11/24 23:22:50 Cliente.go:245: [DEBUG] Tamaño recibido real: 715
+2025/11/24 23:22:50 Cliente.go:254: 
+Comando que mando a Namenode:  put ejemplo.txt 10
+
+2025/11/24 23:22:50 Cliente.go:269: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003
+
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 0 al Datanode localhost:8001
+2025/11/24 23:22:50 Cliente.go:294: Bloque 0 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 1 al Datanode localhost:8002
+2025/11/24 23:22:50 Cliente.go:294: Bloque 1 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 2 al Datanode localhost:8003
+2025/11/24 23:22:50 Cliente.go:294: Bloque 2 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 3 al Datanode localhost:8001
+2025/11/24 23:22:50 Cliente.go:294: Bloque 3 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 4 al Datanode localhost:8002
+2025/11/24 23:22:50 Cliente.go:294: Bloque 4 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 5 al Datanode localhost:8003
+2025/11/24 23:22:50 Cliente.go:294: Bloque 5 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 6 al Datanode localhost:8001
+2025/11/24 23:22:50 Cliente.go:294: Bloque 6 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 7 al Datanode localhost:8002
+2025/11/24 23:22:50 Cliente.go:294: Bloque 7 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 8 al Datanode localhost:8003
+2025/11/24 23:22:50 Cliente.go:294: Bloque 8 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:277: Enviando bloque 9 al Datanode localhost:8001
+2025/11/24 23:22:50 Cliente.go:294: Bloque 9 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 0 al Datanode localhost:8003
+2025/11/24 23:22:50 Cliente.go:319: Bloque 0 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 1 al Datanode localhost:8001
+2025/11/24 23:22:50 Cliente.go:319: Bloque 1 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 2 al Datanode localhost:8002
+2025/11/24 23:22:50 Cliente.go:319: Bloque 2 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 3 al Datanode localhost:8003
+2025/11/24 23:22:50 Cliente.go:319: Bloque 3 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 4 al Datanode localhost:8001
+2025/11/24 23:22:50 Cliente.go:319: Bloque 4 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 5 al Datanode localhost:8002
+2025/11/24 23:22:50 Cliente.go:319: Bloque 5 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 6 al Datanode localhost:8003
+2025/11/24 23:22:50 Cliente.go:319: Bloque 6 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 7 al Datanode localhost:8001
+2025/11/24 23:22:50 Cliente.go:319: Bloque 7 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 8 al Datanode localhost:8002
+2025/11/24 23:22:50 Cliente.go:319: Bloque 8 enviado al Datanode 
+2025/11/24 23:22:50 Cliente.go:302: Enviando bloque de recuperacion 9 al Datanode localhost:8003
+2025/11/24 23:22:50 Cliente.go:319: Bloque 9 enviado al Datanode 
+2025/11/24 23:23:13 Cliente.go:53: Comando ingresado: get ejemplo.txt
+2025/11/24 23:23:13 Cliente.go:160: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 23:23:13 Cliente.go:254: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 23:23:13 Cliente.go:269: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:23:13 Cliente.go:167: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 23:23:13 Cliente.go:330: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 23:23:13 Cliente.go:342: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 23:23:13 Cliente.go:363: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:23:13 Cliente.go:367: [DEBUG] primeros bytes: 30ecb07442ee8edb32cfd58e60cfb4e9
+2025/11/24 23:23:13 Cliente.go:371: Error desencriptando: cipher: message authentication failed
+2025/11/24 23:29:17 Cliente.go:53: Comando ingresado: 
+2025/11/24 23:29:17 Cliente.go:94: unknown command: 
+2025/11/24 23:29:17 Cliente.go:116: Usage:
+2025/11/24 23:29:22 Cliente.go:40: Conectado al Namenode localhost:8080
+2025/11/24 23:29:28 Cliente.go:53: Comando ingresado: put ejemplo.txt
+2025/11/24 23:29:28 Cliente.go:126: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 0 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 1 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 2 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 3 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 4 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 5 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 6 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 7 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 8 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:29:28 Cliente.go:234: 
+ Bloque 9 leído, tamaño 715 
+ ========================================
+2025/11/24 23:29:28 Cliente.go:244: [DEBUG] Tamaño esperado: 715
+2025/11/24 23:29:28 Cliente.go:245: [DEBUG] Tamaño recibido real: 715
+2025/11/24 23:29:28 Cliente.go:254: 
+Comando que mando a Namenode:  put ejemplo.txt 10
+
+2025/11/24 23:29:28 Cliente.go:269: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003
+
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 0 al Datanode localhost:8001
+2025/11/24 23:29:28 Cliente.go:294: Bloque 0 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 1 al Datanode localhost:8002
+2025/11/24 23:29:28 Cliente.go:294: Bloque 1 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 2 al Datanode localhost:8003
+2025/11/24 23:29:28 Cliente.go:294: Bloque 2 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 3 al Datanode localhost:8001
+2025/11/24 23:29:28 Cliente.go:294: Bloque 3 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 4 al Datanode localhost:8002
+2025/11/24 23:29:28 Cliente.go:294: Bloque 4 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 5 al Datanode localhost:8003
+2025/11/24 23:29:28 Cliente.go:294: Bloque 5 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 6 al Datanode localhost:8001
+2025/11/24 23:29:28 Cliente.go:294: Bloque 6 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 7 al Datanode localhost:8002
+2025/11/24 23:29:28 Cliente.go:294: Bloque 7 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 8 al Datanode localhost:8003
+2025/11/24 23:29:28 Cliente.go:294: Bloque 8 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:277: Enviando bloque 9 al Datanode localhost:8001
+2025/11/24 23:29:28 Cliente.go:294: Bloque 9 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 0 al Datanode localhost:8003
+2025/11/24 23:29:28 Cliente.go:319: Bloque 0 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 1 al Datanode localhost:8001
+2025/11/24 23:29:28 Cliente.go:319: Bloque 1 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 2 al Datanode localhost:8002
+2025/11/24 23:29:28 Cliente.go:319: Bloque 2 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 3 al Datanode localhost:8003
+2025/11/24 23:29:28 Cliente.go:319: Bloque 3 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 4 al Datanode localhost:8001
+2025/11/24 23:29:28 Cliente.go:319: Bloque 4 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 5 al Datanode localhost:8002
+2025/11/24 23:29:28 Cliente.go:319: Bloque 5 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 6 al Datanode localhost:8003
+2025/11/24 23:29:28 Cliente.go:319: Bloque 6 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 7 al Datanode localhost:8001
+2025/11/24 23:29:28 Cliente.go:319: Bloque 7 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 8 al Datanode localhost:8002
+2025/11/24 23:29:28 Cliente.go:319: Bloque 8 enviado al Datanode 
+2025/11/24 23:29:28 Cliente.go:302: Enviando bloque de recuperacion 9 al Datanode localhost:8003
+2025/11/24 23:29:28 Cliente.go:319: Bloque 9 enviado al Datanode 
+2025/11/24 23:29:34 Cliente.go:53: Comando ingresado: get ejemplo.txt
+2025/11/24 23:29:34 Cliente.go:160: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 23:29:34 Cliente.go:254: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 23:29:34 Cliente.go:269: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:29:34 Cliente.go:167: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 23:29:34 Cliente.go:330: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 23:29:34 Cliente.go:342: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 23:29:34 Cliente.go:363: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:29:34 Cliente.go:367: [DEBUG] primeros bytes: 153f6aa323cb8d7dc56e7b5a254b3e42
+2025/11/24 23:29:34 Cliente.go:371: Error desencriptando: cipher: message authentication failed
+2025/11/24 23:34:14 Cliente.go:53: Comando ingresado: 
+2025/11/24 23:34:14 Cliente.go:94: unknown command: 
+2025/11/24 23:34:24 Cliente.go:40: Conectado al Namenode localhost:8080
+2025/11/24 23:34:30 Cliente.go:53: Comando ingresado: get ejemplo.txt
+2025/11/24 23:34:30 Cliente.go:160: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 23:34:30 Cliente.go:254: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 23:34:30 Cliente.go:269: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:34:30 Cliente.go:167: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 23:34:30 Cliente.go:330: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 23:34:30 Cliente.go:342: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 23:34:30 Cliente.go:363: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:34:30 Cliente.go:365: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:34:30 Cliente.go:370: [DEBUG] primeros bytes: 153f6aa323cb8d7dc56e7b5a254b3e42
+2025/11/24 23:34:30 Cliente.go:374: Error desencriptando: cipher: message authentication failed
+2025/11/24 23:37:49 Cliente.go:53: Comando ingresado: 
+2025/11/24 23:37:49 Cliente.go:94: unknown command: 
+2025/11/24 23:37:49 Cliente.go:116: Usage:
+2025/11/24 23:37:55 Cliente.go:40: Conectado al Namenode localhost:8080
+2025/11/24 23:37:57 Cliente.go:53: Comando ingresado: get ejemplo.txt
+2025/11/24 23:37:57 Cliente.go:160: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 23:37:57 Cliente.go:254: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 23:37:57 Cliente.go:269: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:37:57 Cliente.go:167: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 23:37:57 Cliente.go:330: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 23:37:57 Cliente.go:342: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 23:37:57 Cliente.go:363: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:37:57 Cliente.go:365: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:37:57 Cliente.go:370: [DEBUG] primeros bytes: 153f6aa323cb8d7dc56e7b5a254b3e42
+2025/11/24 23:37:57 Cliente.go:374: Error desencriptando: cipher: message authentication failed
+2025/11/24 23:40:44 Cliente.go:53: Comando ingresado: 
+2025/11/24 23:40:44 Cliente.go:94: unknown command: 
+2025/11/24 23:40:44 Cliente.go:116: Usage:
+2025/11/24 23:40:52 Cliente.go:37: Conectado al Namenode localhost:8080
+2025/11/24 23:40:58 Cliente.go:50: Comando ingresado: put ejemplo.txt
+2025/11/24 23:40:58 Cliente.go:123: Ejecutando comando put con argumentos: ejemplo.txt
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 0 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 1 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 2 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 3 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 4 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 5 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 6 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 7 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 8 leído, tamaño 1024 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 1024
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 1024
+2025/11/24 23:40:58 Cliente.go:231: 
+ Bloque 9 leído, tamaño 715 
+ ========================================
+2025/11/24 23:40:58 Cliente.go:233: [DEBUG] Tamaño esperado: 715
+2025/11/24 23:40:58 Cliente.go:234: [DEBUG] Tamaño recibido real: 715
+2025/11/24 23:40:58 Cliente.go:243: 
+Comando que mando a Namenode:  put ejemplo.txt 10
+
+2025/11/24 23:40:58 Cliente.go:258: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003
+
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 0 al Datanode localhost:8001
+2025/11/24 23:40:58 Cliente.go:283: Bloque 0 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 1 al Datanode localhost:8002
+2025/11/24 23:40:58 Cliente.go:283: Bloque 1 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 2 al Datanode localhost:8003
+2025/11/24 23:40:58 Cliente.go:283: Bloque 2 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 3 al Datanode localhost:8001
+2025/11/24 23:40:58 Cliente.go:283: Bloque 3 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 4 al Datanode localhost:8002
+2025/11/24 23:40:58 Cliente.go:283: Bloque 4 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 5 al Datanode localhost:8003
+2025/11/24 23:40:58 Cliente.go:283: Bloque 5 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 6 al Datanode localhost:8001
+2025/11/24 23:40:58 Cliente.go:283: Bloque 6 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 7 al Datanode localhost:8002
+2025/11/24 23:40:58 Cliente.go:283: Bloque 7 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 8 al Datanode localhost:8003
+2025/11/24 23:40:58 Cliente.go:283: Bloque 8 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:266: Enviando bloque 9 al Datanode localhost:8001
+2025/11/24 23:40:58 Cliente.go:283: Bloque 9 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 0 al Datanode localhost:8003
+2025/11/24 23:40:58 Cliente.go:308: Bloque 0 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 1 al Datanode localhost:8001
+2025/11/24 23:40:58 Cliente.go:308: Bloque 1 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 2 al Datanode localhost:8002
+2025/11/24 23:40:58 Cliente.go:308: Bloque 2 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 3 al Datanode localhost:8003
+2025/11/24 23:40:58 Cliente.go:308: Bloque 3 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 4 al Datanode localhost:8001
+2025/11/24 23:40:58 Cliente.go:308: Bloque 4 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 5 al Datanode localhost:8002
+2025/11/24 23:40:58 Cliente.go:308: Bloque 5 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 6 al Datanode localhost:8003
+2025/11/24 23:40:58 Cliente.go:308: Bloque 6 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 7 al Datanode localhost:8001
+2025/11/24 23:40:58 Cliente.go:308: Bloque 7 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 8 al Datanode localhost:8002
+2025/11/24 23:40:58 Cliente.go:308: Bloque 8 enviado al Datanode 
+2025/11/24 23:40:58 Cliente.go:291: Enviando bloque de recuperacion 9 al Datanode localhost:8003
+2025/11/24 23:40:58 Cliente.go:308: Bloque 9 enviado al Datanode 
+2025/11/24 23:41:05 Cliente.go:50: Comando ingresado: get ejemplo.txt
+2025/11/24 23:41:05 Cliente.go:157: Ejecutando comando get con argumentos: ejemplo.txt
+2025/11/24 23:41:05 Cliente.go:243: 
+Comando que mando a Namenode:  get ejemplo.txt
+
+2025/11/24 23:41:05 Cliente.go:258: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:41:05 Cliente.go:164: Lista de DataNodos:  [localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001 localhost:8002 localhost:8003 localhost:8001
+]
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8001 para leer el bloque 0
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_0
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 556e2073697374656d61206f70657261
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8002 para leer el bloque 1
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_1
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 73637269746f72696f20646f6d696e61
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8003 para leer el bloque 2
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_2
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 206c61206a756e676c6120792061206d
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8001 para leer el bloque 3
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_3
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: b16f730d0a74656e6572207175652064
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8002 para leer el bloque 4
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_4
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 652071756564616261206d75790d0a63
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8003 para leer el bloque 5
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_5
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 6520c3a96c2c2061756e717565206d69
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8001 para leer el bloque 6
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_6
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 6c7567617220686162697461646f2079
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8002 para leer el bloque 7
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_7
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 6572696f7265732e20e2809445737465
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8003 para leer el bloque 8
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_8
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=1024)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 1024 bytes, tamaño declarado 1024
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 756e6120636f73612e2045736f207675
+2025/11/24 23:41:05 Cliente.go:319: Conectando al Datanode localhost:8001 para leer el bloque 9
+2025/11/24 23:41:05 Cliente.go:331: 
+Comando que mando a Datanode:  read ejemplo.txt_block_9
+
+2025/11/24 23:41:05 Cliente.go:352: [DEBUG] Tamaño recibido de  ReadFull: %!(EXTRA int=715)
+2025/11/24 23:41:05 Cliente.go:354: [DEBUG] recibido 715 bytes, tamaño declarado 715
+2025/11/24 23:41:05 Cliente.go:359: [DEBUG] primeros bytes: 6f726465726f3f204465737075c3a973
+2025/11/24 23:41:12 Cliente.go:50: Comando ingresado: ls
+2025/11/24 23:41:12 Cliente.go:186: Ejecutando comando ls
+2025/11/24 23:41:12 Cliente.go:243: 
+Comando que mando a Namenode:  ls
+
+2025/11/24 23:41:12 Cliente.go:258: Respuesta del Namenode: 
+ ejemplo.txt,ejemplo.txt_backup
+
+2025/11/24 23:41:12 Cliente.go:189:  ===== Contenido del metadata ===== 
+2025/11/24 23:41:12 Cliente.go:192: -	 ejemplo.txt
+2025/11/24 23:41:12 Cliente.go:192: -	 ejemplo.txt_backup
+
+2025/11/24 23:41:27 Cliente.go:50: Comando ingresado: rm ejemplo.txt
+2025/11/24 23:41:27 Cliente.go:197: Ejecutando comando rm
+2025/11/24 23:41:27 Cliente.go:243: 
+Comando que mando a Namenode:  rm ejemplo.txt
+
+2025/11/24 23:41:27 Cliente.go:258: Respuesta del Namenode: 
+ localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001,localhost:8002,localhost:8003,localhost:8001
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8001 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_0
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8002 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_1
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8003 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_2
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8001 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_3
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8002 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_4
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8003 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_5
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8001 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_6
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8002 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_7
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8003 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_8
+
+2025/11/24 23:41:27 Cliente.go:439: Conectando al Datanode localhost:8001 para eliminar los bloques
+2025/11/24 23:41:27 Cliente.go:448: 
+Comando que mando a Datanode:  rm ejemplo.txt_block_9
+
+2025/11/24 23:41:27 Cliente.go:202: Archivo eliminado del DFS:  ejemplo.txt
+2025/11/24 23:41:43 Cliente.go:50: Comando ingresado: ls
+2025/11/24 23:41:43 Cliente.go:186: Ejecutando comando ls
+2025/11/24 23:41:43 Cliente.go:243: 
+Comando que mando a Namenode:  ls
+
+2025/11/24 23:41:43 Cliente.go:258: Respuesta del Namenode: 
+ ejemplo.txt_backup,ejemplo.txt
+
+2025/11/24 23:41:43 Cliente.go:189:  ===== Contenido del metadata ===== 
+2025/11/24 23:41:43 Cliente.go:192: -	 ejemplo.txt_backup
+2025/11/24 23:41:43 Cliente.go:192: -	 ejemplo.txt
+
+2025/11/24 23:42:15 Cliente.go:50: Comando ingresado: 
+2025/11/24 23:42:15 Cliente.go:91: unknown command: 

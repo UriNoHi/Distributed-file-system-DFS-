@@ -1,3 +1,5 @@
+Un sistema operativo (SO) es el conjunto de programas de un sistema informático que gestiona los recursos del hardware y provee servicios a los programas de aplicación de software. Estos programas se ejecutan en modo privilegiado respecto de los restantes.[1]​ Uno de los propósitos del sistema operativo que gestiona el núcleo intermediario consiste en gestionar los recursos de localización y protección de acceso del hardware, hecho que alivia a los programadores de aplicaciones de tener que tratar con estos detalles. La mayoría de los aparatos electrónicos que utilizan microprocesadores para funcionar, llevan incorporado un sistema operativo (teléfonos móviles, reproductores de DVD, computadoras, enrutadores, etc.). En cuyo caso, son manejados mediante una interfaz gráfica de usuario, un gestor de ventanas o un entorno de escritorio, si es un celular, mediante una consola o control remoto si es un DVD y, mediante una línea de comandos o navegador web si es un enrutador. El sistema operativo de escritorio dominante es Microsoft Windows con una cuota de mercado de alrededor del 68,28%. MacOS de Apple Inc. ocupa el segundo lugar (18,71%) y las variedades de GNU/ Linux están colectivamente en tercer lugar (3,01%).[2]​ En el sector móvil (incluidos teléfonos inteligentes y tabletas), la participación de Android es de hasta un 70% en el año 2017.[3]​ Las distribuciones Linux son dominantes en los sectores de servidores y supercomputación.[4]​ Existen otras clases especializadas de sistemas operativos, como los sistemas integrados y en tiempo real, para muchas aplicaciones.z
+
 I Cuando yo tenía seis años vi en un libro sobre la selva
 virgen que se titulaba “Historias vividas”, una magnífica
 lámina. Representaba una serpiente boa que se tragaba a
@@ -52,6 +54,8 @@ lugar habitado más próximo. Cuando logré, por fin, articular palabra, le dije
 Y él respondió entonces, suavemente, como algo muy importante: —¡Por favor… píntame un cordero! Cuando el
 misterio es demasiado impresionante, es imposible desobedecer. Por absurdo que aquello me pareciera, a mil
 millas de distancia de todo lugar habitado y en peligro
+1
+2
 de muerte, saqué de mi bolsillo una hoja de papel y una
 pluma fuente. Recordé que yo había estudiado especialmente geografía, historia, cálculo y gramática y le dije
 al muchachito (ya un poco malhumorado), que no sabía

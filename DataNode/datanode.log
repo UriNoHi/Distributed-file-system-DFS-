@@ -1,0 +1,1189 @@
+2025/11/24 22:44:37 Datanode.go:17: Iniciando Datanode en el puerto  8001
+2025/11/24 22:44:37 Datanode.go:28: Datanode is listening on port  8001
+2025/11/24 22:44:38 Datanode.go:17: Iniciando Datanode en el puerto  8002
+2025/11/24 22:44:38 Datanode.go:28: Datanode is listening on port  8002
+2025/11/24 22:44:40 Datanode.go:17: Iniciando Datanode en el puerto  8003
+2025/11/24 22:44:40 Datanode.go:28: Datanode is listening on port  8003
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50981
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_0 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_0 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_0
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50983
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_1 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_1 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_1
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_0
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_1
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50985
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_2 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_2 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_2
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_2
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50987
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_3 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_3 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_3
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_3
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50989
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_4 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_4 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_4
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_4
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50991
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_5 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_5 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_5
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_5
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50993
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_6 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_6 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_6
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_6
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50995
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_7 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_7 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_7
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_7
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50997
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_8 137
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_8 137]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_8
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_8
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50999
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_0 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_0 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_0
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51001
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_1 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_1 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51003
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_2 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_2 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_1
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_2
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51005
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_3 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_3 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_3
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51007
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_4 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_4 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_4
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51009
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_5 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_5 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_5
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51011
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_6 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_6 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_6
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51013
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_7 1052
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_7 1052]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_7
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:46:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51015
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_8 137
+2025/11/24 22:46:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_8 137]
+2025/11/24 22:46:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 22:46:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_8
+2025/11/24 22:46:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:47:01 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51024
+2025/11/24 22:47:01 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 22:47:01 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 22:47:01 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:51024
+2025/11/24 22:55:39 Datanode.go:36: [INFO] Client connected: 127.0.0.1:51819
+2025/11/24 22:55:39 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 22:55:39 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 22:55:39 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:51819
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55477
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_0 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_0 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_0
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55479
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_0
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_1 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_1 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_1
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_1
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55481
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_2 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_2 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_2
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_2
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55483
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_3 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_3 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_3
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_3
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55485
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_4 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_4 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_4
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_4
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55487
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_5 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_5 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_5
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_5
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55489
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_6 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_6 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_6
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_6
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55491
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_7 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_7 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_7
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_7
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55493
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_8 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_8 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_8
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_8
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55496
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_9 743
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_9 743]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_9
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_9
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55498
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_0 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_0 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_0
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55500
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_1 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_1 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_1
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55502
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_2 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_2 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_2
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55504
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_3 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_3 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_3
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55506
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_4 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_4 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_4
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55508
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_5 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_5 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_5
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55510
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_6 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_6 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_6
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55514
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_7 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_7 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_7
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55516
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_8 1052
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_8 1052]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_8
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:58:52 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55518
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_9 743
+2025/11/24 22:58:52 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_9 743]
+2025/11/24 22:58:52 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_9
+2025/11/24 22:58:52 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_9
+2025/11/24 22:58:52 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 22:59:02 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55525
+2025/11/24 22:59:02 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 22:59:02 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 22:59:02 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55525
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55534
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_0 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_0 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_0
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55536
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_0
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_1 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_1 1052]
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_1
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_1
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55538
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_2 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_2 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_2
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_2
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55540
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_3 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_3 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_3
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_3
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55542
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_4 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_4 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_4
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_4
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55544
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_5 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_5 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_5
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_5
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55546
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_6 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_6 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_6
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_6
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55548
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_7 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_7 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_7
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_7
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55550
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_8 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_8 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_8
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_8
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55552
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_9 743
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_9 743]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_9
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_9
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55554
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_0 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_0 1052]
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55556
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_0
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_1 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_1 1052]
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_1
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55558
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_2 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_2 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_2
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55560
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_3 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_3 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_3
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55562
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_4 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_4 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_4
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55564
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_5 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_5 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_5
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55566
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_6 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_6 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_6
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55568
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_7 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_7 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_7
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55570
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_8 1052
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_8 1052]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_8
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:47 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55572
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_9 743
+2025/11/24 23:00:47 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_9 743]
+2025/11/24 23:00:47 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_9
+2025/11/24 23:00:47 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_9
+2025/11/24 23:00:47 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:00:54 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55578
+2025/11/24 23:00:54 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 23:00:54 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 23:00:54 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55578
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55716
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_0 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_0 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_0
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_0
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55718
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_1 1052
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55716
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_1 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_1
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_1
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55718
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55720
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_2 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_2 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_2
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_2
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55720
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55722
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_3 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_3 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_3
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_3
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55722
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55724
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_4 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_4 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_4
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_4
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55724
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55726
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_5 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_5 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_5
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_5
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55726
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55728
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55730
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_6 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_6 1052]
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_7 1052
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_6
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_7 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_7
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_6
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55728
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55732
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_8 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_8 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_8
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_8
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_7
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55734
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55732
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55730
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_9 743
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55736
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_9 743]
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_0 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_0 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_9
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_0
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_9
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55734
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55738
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_1 1052
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55740
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_2 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_2 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_1 1052]
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_2
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_1
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55742
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_3 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_3 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_3
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55744
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_4 1052
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_4 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55746
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_5 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_5 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_4
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_5
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55748
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_6 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_6 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_6
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55750
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_7 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_7 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55752
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_7
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_8 1052
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_8 1052]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_8
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:24 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55754
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_9 743
+2025/11/24 23:06:24 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_9 743]
+2025/11/24 23:06:24 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_9
+2025/11/24 23:06:24 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_9
+2025/11/24 23:06:24 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:06:29 Datanode.go:36: [INFO] Client connected: 127.0.0.1:55762
+2025/11/24 23:06:29 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 23:06:29 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 23:06:29 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:55762
+2025/11/24 23:10:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60185
+2025/11/24 23:10:28 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 23:10:28 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 23:10:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60185
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50944
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_0 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_0 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_0
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50946
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_1 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_1 1052]
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_0
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_1
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50944
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_1
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50946
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50948
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_2 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_2 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_2
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_2
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50948
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50950
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_3 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_3 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_3
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_3
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50950
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50952
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_4 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_4 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_4
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_4
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50952
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50954
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_5 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_5 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_5
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_5
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50954
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50956
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_6 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_6 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_6
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50958
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_6
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_7 1052
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50956
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_7 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_7
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_7
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50958
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50960
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_8 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_8 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_8
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_8
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50960
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50962
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_9 743
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_9 743]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_9
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_9
+2025/11/24 23:22:50 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:50962
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50964
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_0 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_0 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50966
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_0
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_1 1052
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_1 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_1
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50968
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_2 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_2 1052]
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50970
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_3 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_3 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_2
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_3
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50972
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_4 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_4 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_4
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50974
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_5 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_5 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_5
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50976
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_6 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_6 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_6
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50978
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_7 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_7 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_7
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50980
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_8 1052
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_8 1052]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_8
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:22:50 Datanode.go:36: [INFO] Client connected: 127.0.0.1:50982
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_9 743
+2025/11/24 23:22:50 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_9 743]
+2025/11/24 23:22:50 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_9
+2025/11/24 23:22:50 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_9
+2025/11/24 23:22:50 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:23:13 Datanode.go:36: [INFO] Client connected: 127.0.0.1:58503
+2025/11/24 23:23:13 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 23:23:13 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 23:23:13 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:58503
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54626
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_0 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_0 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_0
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54628
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_0
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_1 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_1 1052]
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54626
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_1
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_1
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54628
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54630
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_2 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_2 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_2
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_2
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54630
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54632
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_3 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_3 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_3
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_3
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54632
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54634
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_4 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_4 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_4
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_4
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54634
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54636
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_5 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_5 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_5
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_5
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54636
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54638
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_6 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_6 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_6
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_6
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54640
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54638
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_7 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_7 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_7
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_7
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54640
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54642
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_8 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_8 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_8
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_8
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54642
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54644
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_9 743
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_9 743]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_9
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_9
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54646
+2025/11/24 23:29:28 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54644
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_0 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_0 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54648
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_1 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_1 1052]
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_0
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54650
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_2 1052
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_1
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54652
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_2 1052]
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_3 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_3 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54654
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_2
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_4 1052
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_3
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_4 1052]
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54656
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_5 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_5 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_4
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_5
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54658
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_6 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_6 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_6
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54660
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_7 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_7 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_7
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54662
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_8 1052
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_8 1052]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_8
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:28 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54664
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_9 743
+2025/11/24 23:29:28 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_9 743]
+2025/11/24 23:29:28 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_9
+2025/11/24 23:29:28 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_9
+2025/11/24 23:29:28 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:29:34 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54671
+2025/11/24 23:29:34 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 23:29:34 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 23:29:34 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54671
+2025/11/24 23:34:30 Datanode.go:36: [INFO] Client connected: 127.0.0.1:53993
+2025/11/24 23:34:30 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 23:34:30 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 23:34:30 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:53993
+2025/11/24 23:37:57 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54013
+2025/11/24 23:37:57 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 23:37:57 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 23:37:57 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54013
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54025
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_0 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_0 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_0
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_0
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54027
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54025
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_1 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_1 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_1
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_1
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54027
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54029
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_2 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_2 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_2
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_2
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54029
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54031
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_3 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_3 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_3
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_3
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54033
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54031
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_4 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_4 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_4
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_4
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54033
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54035
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_5 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_5 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_5
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_5
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54037
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54035
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_6 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_6 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_6
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54039
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_7 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_7 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_7
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_6
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_7
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54037
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54039
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54041
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_8 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_8 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_8
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_8
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54041
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54043
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_9 715
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_9 715]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_9
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_9
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54045
+2025/11/24 23:40:58 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54043
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_0 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_0 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_0
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54047
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_1 1024
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_1 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54049
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_1
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_2 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_2 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_2
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54051
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_3 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_3 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_3
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54053
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_4 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_4 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_4
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54055
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_5 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_5 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54057
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_6 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_6 1024]
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_5
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_6
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54059
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_7 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_7 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_7
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54061
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_8 1024
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_8 1024]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_8
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:40:58 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54063
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_9 715
+2025/11/24 23:40:58 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_9 715]
+2025/11/24 23:40:58 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_9
+2025/11/24 23:40:58 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_9
+2025/11/24 23:40:58 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54070
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_0
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_0
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54072
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_1
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_1
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54074
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_2
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_2
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54076
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_3
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_3
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54078
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_4
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_4
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54080
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_5
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_5
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54082
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_6
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_6
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54084
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_7
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_7
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54086
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_8
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_8
+2025/11/24 23:41:05 Datanode.go:36: [INFO] Client connected: 127.0.0.1:54088
+2025/11/24 23:41:05 Datanode.go:58: [INFO] Comando recibido de Cliente: read ejemplo.txt_block_9
+2025/11/24 23:41:05 Datanode.go:111: [INFO] READ en Datanode: ejemplo.txt_block_9
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54088
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54086
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54082
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54084
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54080
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54076
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54072
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54070
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54074
+2025/11/24 23:41:05 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:54078
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60498
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_0
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_0
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_0
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60498
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60500
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_1
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_1
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_1
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60500
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60502
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_2
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_2
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_2
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60502
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60504
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_3
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_3
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_3
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60504
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60506
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_4
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_4
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_4
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60506
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60508
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_5
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_5
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_5
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60508
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60510
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_6
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_6
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_6
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60510
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60512
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_7
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_7
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_7
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60512
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60514
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_8
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_8
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_8
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60514
+2025/11/24 23:41:27 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60516
+2025/11/24 23:41:27 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_9
+2025/11/24 23:41:27 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_9
+2025/11/24 23:41:27 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_9
+2025/11/24 23:41:27 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60516
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60542
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_0 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_0 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_0
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_0
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60542
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60544
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_1 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_1 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_1
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_1
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60546
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60544
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_2 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_2 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_2
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_2
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60548
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60546
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_3 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_3 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_3
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_3
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60548
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60550
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_4 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_4 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_4
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_4
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60550
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60552
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_5 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_5 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_5
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_5
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60552
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60554
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_6 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_6 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_6
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_6
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60554
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60556
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_7 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_7 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_7
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_7
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60556
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60558
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_8 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_8 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_8
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_8
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60558
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60560
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_block_9 715
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_block_9 715]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_block_9
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_block_9
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60562
+2025/11/24 23:44:40 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60560
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_0 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_0 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_0
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60564
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_1 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_1 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_1
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60566
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_2 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_2 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_2
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60568
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_3 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_3 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_3
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60570
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_4 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_4 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_4
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60572
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_5 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_5 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_5
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60574
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_6 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_6 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_6
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60576
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_7 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_7 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_7
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60578
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_8 1024
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_8 1024]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_8
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:40 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60580
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: store ejemplo.txt_backup_block_9 715
+2025/11/24 23:44:40 Datanode.go:74: [INFO] Partes del comando:  [store ejemplo.txt_backup_block_9 715]
+2025/11/24 23:44:40 Datanode.go:97: [INFO]	==> STORE en Datanode: ejemplo.txt_backup_block_9
+2025/11/24 23:44:40 Datanode.go:105: [INFO]	====> Archivo guardado: ejemplo.txt_backup_block_9
+2025/11/24 23:44:40 Datanode.go:58: [INFO] Comando recibido de Cliente: 
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60588
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_0
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_0
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_0
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60588
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60590
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_1
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_1
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_1
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60590
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60592
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_2
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_2
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_2
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60592
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60594
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_3
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_3
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_3
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60594
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60596
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_4
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_4
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_4
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60596
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60598
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_5
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_5
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_5
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60598
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60600
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_6
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_6
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_6
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60600
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60602
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_7
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_7
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_7
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60602
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60604
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_8
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_8
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_8
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60604
+2025/11/24 23:44:48 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60606
+2025/11/24 23:44:48 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_block_9
+2025/11/24 23:44:48 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_block_9
+2025/11/24 23:44:48 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_block_9
+2025/11/24 23:44:48 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60606
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60609
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_0
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_0
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60611
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_0
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60609
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_1
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_1
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_1
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60611
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60613
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_2
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_2
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_2
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60613
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60615
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_3
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_3
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_3
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60615
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60617
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_4
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_4
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_4
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60617
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60619
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_5
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_5
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_5
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60619
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60621
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_6
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_6
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_6
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60621
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60623
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_7
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_7
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_7
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60623
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60625
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_8
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_8
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_8
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60625
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60627
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_9
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_9
+2025/11/24 23:45:03 Datanode.go:155: [INFO] Archivo eliminado: ejemplo.txt_backup_block_9
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60627
+2025/11/24 23:45:03 Datanode.go:36: [INFO] Client connected: 127.0.0.1:60629
+2025/11/24 23:45:03 Datanode.go:58: [INFO] Comando recibido de Cliente: rm ejemplo.txt_backup_block_10
+2025/11/24 23:45:03 Datanode.go:149: [INFO] RM en Datanode: ejemplo.txt_backup_block_10
+2025/11/24 23:45:03 Datanode.go:152: [ERROR] Error eliminando archivo: remove blocks/ejemplo.txt_backup_block_10: The system cannot find the file specified.
+2025/11/24 23:45:03 Datanode.go:51: [WARNING] Cliente desconectado: 127.0.0.1:60629

@@ -86,6 +86,7 @@ func handleConnection(coneccion net.Conn) {
 			listOfFiles(coneccion)
 		case "rm":
 			getNameNode(parts[1], coneccion)
+			rmEntry(parts[1])
 
 		default:
 			log.Println("DEFAULT")
@@ -233,6 +234,21 @@ func getNodeList() {
 			nodes = append(nodes, strings.TrimSpace(line))
 			log.Println("[INFO] - ", strings.TrimSpace(line))
 			fmt.Println("[INFO] - ", strings.TrimSpace(line))
+		}
+	}
+}
+
+func rmEntry(fileName string) {
+	log.Printf("[INFO] Procesando RM en Namenode para el archivo %s\n", fileName)
+	fmt.Printf("[INFO] Procesando RM en Namenode para el archivo %s\n", fileName)
+	delete(metadata, fileName)
+
+	data, err := json.MarshalIndent(metadata, "", "  ")
+	if err != nil {
+		log.Println("[ERROR] Error marshaling metadata:", err)
+	} else {
+		if err := os.WriteFile("metadata.json", data, 0644); err != nil {
+			log.Println("[ERROR] Error writing metadata file:", err)
 		}
 	}
 }
